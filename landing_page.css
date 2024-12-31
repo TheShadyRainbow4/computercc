@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(to bottom, #f0f0f0, #eaeaea);
+}
+
+header {
+    background: linear-gradient(to right, #4a90e2, #007aff);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: #007aff;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #007aff;
+    border-bottom: 2px solid #007aff;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #007aff;
+    color: #ffffff;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Colors for each section */
+#about {
+    background-color: #f9f9f9;
+}
+
+#services {
+    background-color: #e9f0f9;
+}
+
+#recycling {
+    background-color: #f9e9e9;
+}
+
+#contact {
+    background-color: #e9f9e9;
+}
+
+#inquiries {
+    background-color: #f9f9f9;
+}
